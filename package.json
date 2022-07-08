@@ -1,0 +1,24 @@
+{
+  "name": "apollo-queries-scalar-objectTypes",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Tales eduardo <tales.e.valadares@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.9.0",
+    "graphql": "^16.5.0"
+  },
+  "scripts": {
+    "dev": "nodemon -r sucrase/register src/index.js"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "sucrase": "^3.23.0"
+  }
+}
