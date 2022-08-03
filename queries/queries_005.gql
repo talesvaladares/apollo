@@ -1,0 +1,19 @@
+query GET_USER($id: ID!) {
+  user(id: $id) {
+    id
+    userName
+  }
+}
+
+fragment post on Post {
+  id
+  title
+  createdAt
+  unixTimestamp
+}
+
+query GET_POST($id: ID!) {
+  post(id: $id) {
+    ...post
+  }
+}
