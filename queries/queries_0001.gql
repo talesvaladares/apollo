@@ -1,14 +1,13 @@
-query GET_USER {
+query GET_USERS {
   user {
     id
-    username
+    userName
   }
 }
-
 
 query GET_USERS {
   users {
     id
-    username
+    userName
   }
 }
